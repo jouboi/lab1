@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">lab1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/my_image"
+            android:contentDescription="@string/my_image_description" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_image"
+        android:contentDescription="@string/my_image_description" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нажми меня!" />
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
